@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+
+.myimage{
+    background-color: grey;
+    padding: 20px;
+}
+
+.selfimage {
+    width: fit-content;
+}
+
+.box{
+    border-style: solid;
+    border-radius:  2px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.info{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+}
