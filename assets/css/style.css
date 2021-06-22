@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -8,6 +12,27 @@ header {
     background-color: cadetblue;
 }
 
+.topnav{
+    width: 100%;
+    overflow: auto;
+}
+
+.topnav a{
+    float: left;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    width: 30%;
+    text-align: center;
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+.topnav a:active{
+    color:grey;
+}
 
 .myimage{
     background-color: grey;
@@ -20,7 +45,7 @@ header {
 
 .box{
     border-style: solid;
-    border-radius:  2px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 30px;
     padding: 10px;
 }
