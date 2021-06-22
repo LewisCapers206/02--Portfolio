@@ -141,7 +141,7 @@ footer {
     padding: 30px;
 }
 
-.bottom-nav {
+.bottom-nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -149,6 +149,10 @@ footer {
     justify-content: space-evenly;
     width: 100%;
     font-size: 25px;
+}
+
+.bottom-nav a{
+    color: white;
 }
 
 .bottom-nav a:hover {
