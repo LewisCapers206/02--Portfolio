@@ -43,11 +43,16 @@ header {
     width: fit-content;
 }
 
-.box {
+
+.box, .first {
     border-style: solid;
     border-radius: 10px 10px 10px 10px;
     font-size: 30px;
     padding: 10px;
+}
+
+.box {
+    margin-top: 30%;
 }
 
 .info {
@@ -56,6 +61,37 @@ header {
     padding: 2px;
     text-align: center;
 }
+
+.large {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: cadetblue;
+    padding: 200px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 20%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sandy_Pond_Beach%2C_New_York%2C_20090523.JPG/1200px-Sandy_Pond_Beach%2C_New_York%2C_20090523.JPG)
+}
+
+.group:hover {
+    border-color: black;
+}
+
+.hello {
+    text-align: right;
+}
+
 
 .row {
     display: flex;
@@ -87,9 +123,7 @@ header {
     border-radius: 2px;
 }
 
-.edit p {
-    font-weight: 100;
-}
+
 
 .col:hover{
     border-color: black;
@@ -123,6 +157,13 @@ footer {
 
 .bottom-nav a:active {
     color: grey;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 
