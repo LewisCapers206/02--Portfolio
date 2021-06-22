@@ -74,6 +74,7 @@ header {
     padding: 5px;
     margin: 15px;
     width: 20%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sandy_Pond_Beach%2C_New_York%2C_20090523.JPG/1200px-Sandy_Pond_Beach%2C_New_York%2C_20090523.JPG);
 }
 
 .edit {
@@ -82,7 +83,7 @@ header {
     border-radius: 2px;
 }
 
-.col:hover {
+.col:hover{
     border-color: black;
+    
 }
-
