@@ -26,6 +26,7 @@ header {
     font-size: 35px;
     width: 30%;
     text-align: center;
+    text-decoration: none;
 }
 
 .topnav a:hover{
@@ -96,6 +97,10 @@ footer {
     padding: 30px;
 }
 
+.contactMe {
+    color: white;
+}
+
 .bottom-nav{
     display: flex;
     flex-wrap: wrap;
@@ -106,15 +111,13 @@ footer {
 
 .bottom-nav a{
     color: white;
+    text-decoration: none;
 }
 
 .bottom-nav a:hover {
     color: black;
 }
 
-.bottom-nav a:active {
-    color: grey;
-}
 
 
 @media screen and (max-width:992px) {
