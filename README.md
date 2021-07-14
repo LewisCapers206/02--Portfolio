@@ -10,8 +10,8 @@ If I make similar classes in the HTML and apply those in the CSS I feel as thoug
 
 I built this project so that I can use it in the future as an acual portfolio for myself. I will continue to use the skills that I learn in order to make it better and much more clean.
 
+Some of the technologies I used were HTML, CSS, and Bootstrap.
 
-![alt 02--portfolio](assets/images/screensho(8).png)
-
+![my screenshot](images/main.png1.png)
 
 [Github](https://lewiscapers206.github.io/02--Portfolio/)

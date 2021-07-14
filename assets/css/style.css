@@ -40,10 +40,15 @@ header {
 .myimage{
     background-color: grey;
     padding: 20px;
+
 }
 
 .selfimage {
-    width: fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    border: 1px solid black;
 }
 
 
@@ -97,7 +102,7 @@ footer {
     padding: 30px;
 }
 
-.contactMe {
+#contactMe {
     color: white;
 }
 
