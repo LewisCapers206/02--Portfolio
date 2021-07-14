@@ -12,6 +12,6 @@ I built this project so that I can use it in the future as an acual portfolio fo
 
 Some of the technologies I used were HTML, CSS, and Bootstrap
 
-![Screenshot](nav-1.png)
+![myimage](/images/nav.png)
 
 [Github](https://lewiscapers206.github.io/02--Portfolio/)
